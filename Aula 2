@@ -1,0 +1,9 @@
+mutex pra não deixar mais de uma thread acessar a mesma região critica ao mesmo tempo
+
+Sessão 2.4 livro tanenbaum:
+
+1. No two processes may be simultaneously inside their critical regions.
+2. No assumptions may be made about speeds or the number of CPUs.
+3. No process running outside its critical region may block any process.
+4. No process should have to wait forever to enter its critical region.
+
